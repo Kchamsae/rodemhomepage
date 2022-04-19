@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     ></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -27,14 +27,12 @@
         <a href="#">Rodem</a>
       </div>
       <ul class="navbar__menu">
-        <li class="navbar__menu__item active" data-link="#home">Home</li>
-        <li class="navbar__menu__item" data-link="#about">About</li>
-        <li class="navbar__menu__item" data-link="#skills">Skills</li>
-        <li class="navbar__menu__item" data-link="#work">My work</li>
-        <li class="navbar__menu__item" data-link="#testimonials">
-          Testimonial
-        </li>
-        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        <li class="navbar__menu__item active" data-link="#home">홈</li>
+        <li class="navbar__menu__item" data-link="#about">하는일</li>
+        <li class="navbar__menu__item" data-link="#skills">서비스 만족도</li>
+        <li class="navbar__menu__item" data-link="#work">로뎀의 활동들</li>
+        <li class="navbar__menu__item" data-link="#testimonials">후기</li>
+        <li class="navbar__menu__item" data-link="#contact">문의하기</li>
       </ul>
 
       <!-- Toggle button-->
@@ -45,11 +43,11 @@
     <!-- Home -->
     <section id="home">
       <div class="home__container">
-        <img src="imgs/profile.jpeg" alt="Rodem's photo" class="home__avatar" />
-        <h1 class="home__title">Hello, <br />Rodem</h1>
+        <img src="imgs/home.jpeg" alt="Rodem's photo" class="home__avatar" />
+        <h1 class="home__title">로뎀노인복지센터</h1>
         <h2 class="home__description">Hello We are Rodem.</h2>
         <button class="home__contact">
-          <a href="tel:01089141987"></a> Contact Me
+          <a href="tel:01089141987"></a> 연락하기
         </button>
       </div>
     </section>
@@ -60,31 +58,33 @@
       <div class="about__majors">
         <div class="major">
           <div class="major__icon">
-            <i class="fab fa-html5"></i>
+            <i class="fa-solid fa-hands-holding-child"></i>
           </div>
-          <h2 class="major__title">Front-end</h2>
+          <h2 class="major__title">방문요양</h2>
           <div class="major__description">
-            HTML, CSS, JavaScript, TypeScript,
-            <br />
-            React, Vue, Web APIs
+            장기요양등급판정을 받은 어르신의
+            <br />가정에 요양보호사가 직접 방문하여 <br />신체수발, 가사지원,
+            정서지원 등의 <br />서비스를 제공.
           </div>
         </div>
         <div class="major">
           <div class="major__icon">
-            <i class="fab fa-html5"></i>
+            <i class="fa-solid fa-bath"></i>
           </div>
-          <h2 class="major__title">Front-end</h2>
+          <h2 class="major__title">방문목욕</h2>
           <div class="major__description">
-            HTML, CSS, JavaScript, TypeScript,
+            목욕차량을 이용하거나
             <br />
-            React, Vue, Web APIs
+            요양보호사의 가정방문을 통해
+            <br />
+            목욕 도움 서비스를 제공.
           </div>
         </div>
         <div class="major">
           <div class="major__icon">
-            <i class="fab fa-html5"></i>
+            <i class="fa-solid fa-file-signature"></i>
           </div>
-          <h2 class="major__title">Front-end</h2>
+          <h2 class="major__title">등급신청대행</h2>
           <div class="major__description">
             HTML, CSS, JavaScript, TypeScript,
             <br />
@@ -105,10 +105,8 @@
         <div class="job">
           <img src="" alt="samsung" class="job__logo" />
           <div class="job__description">
-            <p class="job__name">
-              Currently working at Samsung as Software engineer
-            </p>
-            <p class="job__period">2019 Sept - Until</p>
+            <p class="job__name">로뎀노인복지센터 장기요양기관지정</p>
+            <p class="job__period">2017.08.03</p>
           </div>
         </div>
       </div>
@@ -116,7 +114,7 @@
     <!-- Skills -->
     <section id="skills" class="section">
       <div class="section__container">
-        <h1>Skills</h1>
+        <h1>서비스 만족도</h1>
         <h2>Skills & Attributes</h2>
         <p>Our Skills are ~~~~~~~~~~</p>
         <div class="skillset">
@@ -124,38 +122,38 @@
             <h3 class="skillset__title">Skills</h3>
             <div class="skill">
               <div class="skill__description">
-                <span>HTML</span>
-                <span>99%</span>
+                <span>방문요양</span>
+                <span>100%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 99%"></div>
+                <div class="skill__value" style="width: 100%"></div>
               </div>
             </div>
             <div class="skill">
               <div class="skill__description">
-                <span>CSS</span>
-                <span>90%</span>
+                <span>방문목욕</span>
+                <span>100%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 90%"></div>
+                <div class="skill__value" style="width: 100%"></div>
               </div>
             </div>
             <div class="skill">
               <div class="skill__description">
-                <span>JavaScript</span>
-                <span>80%</span>
+                <span>등급신청대행</span>
+                <span>100%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 80%"></div>
+                <div class="skill__value" style="width: 100%"></div>
               </div>
             </div>
             <div class="skill">
               <div class="skill__description">
                 <span>REACT</span>
-                <span>80%</span>
+                <span>100%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 80%"></div>
+                <div class="skill__value" style="width: 100%"></div>
               </div>
             </div>
           </div>
@@ -308,18 +306,19 @@
     <!-- Contact -->
     <section id="contact" class="section">
       <h1 class="contact__title">Let's talk</h1>
-      <h2 class="contact__email">chamsae1987@gmail.com</h2>
-      <div class="contact__links">
+      <h2 class="contact__email">Tel: 031-321-6044</h2>
+      <h2 class="contact__email">Fax: 031-321-6043</h2>
+      <h2 class="contact__email">kkbkr@naver.com</h2>
+      <!-- <div class="contact__links">
         <a href="" target="_blank">
           <i class="fab fa-github"></i>
         </a>
         <a href="#" target="_blank">
           <i class="fa fa-linkedin-square"></i>
         </a>
-      </div>
+      </div> -->
       <p class="contact__rights">2022 Rodem - All rights reserved</p>
     </section>
-
     <!-- Arrow up -->
     <button class="arrow-up">
       <i class="fas fa-arrow-up"></i>

@@ -24,7 +24,7 @@
 
   /* Font weight */
   --weight-bold: 700;
-  --weight-semi-bold: 600;
+  --weight-semi-bold: 500;
   --weight-regular: 400;
 
   /* Size */
@@ -40,7 +40,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   margin: 0;
 }
 
@@ -220,7 +220,7 @@ p {
 }
 .major__icon:hover i {
   color: var(--color-pink);
-  transform: rotate(-30deg) scale(1.1);
+  transform: scale(1.1);
 }
 .major__title,
 .major__description {
